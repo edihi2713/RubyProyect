@@ -1,0 +1,10 @@
+Un tipo de archivo en el que todos los valores están delimitados por comas. ## YAML
+XML proviene de eXtensible Markup Language (“Lenguaje de Marcas Extensible”) ## XML
+Los archivos CSV (del inglés comma-separated values) son un tipo de documento en formato abierto sencillo para representar datos en forma de tabla ## CSV
+Abreviatura de la forma inglesa Hypertext Transfer Protocol, ‘protocolo de transferencia de hipertextos’, que se utiliza en algunas direcciones de internet. ## HTTP
+Sigla de ácido desoxirribonucleico, proteína compleja que se encuentra en el núcleo de las células y constituye el principal constituyente del material genético de los seres vivos ## 	ADN
+SQL (Structured Query Language) es un lenguaje de programación estándar e interactivo para la obtención de información desde una base de datos y para actualizarla. ## SQL
+JSON, acrónimo de JavaScript Object Notation, es un formato de texto ligero para el intercambio de datos. ## JSON
+AJAX es el acrónimo de Asynchronous Javascript and XML, es decir: Javascript y XML Asincrono ## AJAX
+Una API es un conjunto de funciones y procedimientos que cumplen una o muchas funciones con el fin de ser utilizadas por otro software. ## API
+Windows Communication Foundation (WCF) es un marco de trabajo para la creación de aplicaciones orientadas a servicios. ## WCF
