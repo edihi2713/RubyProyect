@@ -34,6 +34,7 @@ game = Game.new
 loaded = game.oportunities.shuffle
 limit = loaded.length - 1
 
+message = "Woud yo like to keep playing?,Press E to exit or any press any other letter to keep going: "
 
 puts "Welcome to challenge Five,type in the correct concept for the given definition"
 
@@ -44,9 +45,9 @@ puts "Welcome to challenge Five,type in the correct concept for the given defini
 		answer = gets.chomp
 		if answer.upcase == loaded[i][:concept].upcase
 			puts "Correct"
-			print "Woud yo like to keep playing?,Press C to keep going, or press any other letter to exit: "
+			print message
 			decision = gets.chomp
-			if decision != "C"
+			if decision.upcase == "E"
 				exit
 			else
 				next
@@ -54,9 +55,9 @@ puts "Welcome to challenge Five,type in the correct concept for the given defini
 
 		else
 			puts "InCorrect"
-			print "Woud yo like to keep playing?,Press C to keep going, or press any other letter to exit: "
+			print message
 			decision = gets.chomp
-			if decision != "C"
+			if decision.upcase == "E"
 				exit
 			else
 				redo
